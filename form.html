@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Form Sample</h1>
+        <a href="index.html">Main page</a>
+    </header>
+    
+    <section>
+        <h2>Client form</h2>
+        <form method="POST" action="https://formspree.io/shustyan31@gmail.com">
+            <label for="client-name">Name:</label>
+            <input type="text" placeholder="Name"
+             id="client-name" name="client-name" required>
+            <br>
+            <label>
+                Email: <input type="email" name="client-email" placeholder="Email" required>
+            </label>
+            <br>
+            <label>Gender:</label>
+            <label><input type="radio" value="male" name="gender" checked>Male</label>
+            <label><input type="radio" value="female" name="gender">Female</label>
+            <label><input type="radio" value="other" name="gender">Other</label>
+            <br>
+            <label>
+                Your comment:
+                <br>
+                <textarea name="comments"></textarea>
+            </label>
+            <br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </section>
+
+ </body>
+</html>
